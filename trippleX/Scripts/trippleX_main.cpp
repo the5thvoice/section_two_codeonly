@@ -15,11 +15,11 @@ int main()
 	int product = numberOne * numberTwo * numberThree;	
 
 	std::cout << "sum: ";
-	std::cout << sum;
-	std::cout << std::endl;
-	std::cout << "Product: ";
-	std::cout << product;
-	std::cout << std::endl;
+	std::cout << sum << std::endl << "Productshbflkahfjha: " << product << std::endl ; // if i use << again i can pas another arguement to the terminal
+	//std::cout << std::endl;
+	//std::cout << "Product: ";
+	//std::cout << product;
+	//std::cout << std::endl;
 
 	return 0;
 }
