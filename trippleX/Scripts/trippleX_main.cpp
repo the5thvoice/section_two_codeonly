@@ -7,15 +7,15 @@ int main()
 	std::cout << std::endl; // std::endl or \n in a sting can do a line return
 	std::cout << "one way is the right way and one leeds to doom\n";
 
-	int numberOne = 4;
-	int numberTwo = 2;
-	int numberThree = 9;
+	const int numberOne = 4;
+	const int numberTwo = 2;
+	const int numberThree = 9;
 	
 	int sum = numberOne + numberTwo + numberThree;
 	int product = numberOne * numberTwo * numberThree;	
 
 	std::cout << "sum: ";
 	std::cout << sum << std::endl; // if i use << again i can pas another arguement to the terminal
-	std::cout << "Product: " << product std::endl;	
+	std::cout << "Product: " << product << std::endl;	
 	return 0;
 }
