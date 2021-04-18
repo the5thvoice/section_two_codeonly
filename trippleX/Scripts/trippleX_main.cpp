@@ -14,8 +14,8 @@ int main()
 	int sum = numberOne + numberTwo + numberThree;
 	int product = numberOne * numberTwo * numberThree;	
 
-	std::cout << "sum: ";
-	std::cout << sum << std::endl; // if i use << again i can pas another arguement to the terminal
-	std::cout << "Product: " << product << std::endl;	
+	std::cout << "you see a signg pointing in each direction, the correct sign display 3 number that\n";
+	std::cout << "add up to " << sum << std::endl; // if i use << again i can pas another arguement to the terminal
+	std::cout << "and multiply to togeher to get " << product << std::endl;	
 	return 0;
 }
